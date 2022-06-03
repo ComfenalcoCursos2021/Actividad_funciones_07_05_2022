@@ -48,6 +48,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
+    background: #ccc;
     clip-path: circle(120px at center);
     transition: 0.5s;
 }
@@ -131,11 +132,18 @@ body{
     transition: 0.5s;
     transition-delay: 0s;
 }
+/*************************************************/
 .card:hover .product_img{
     left: 75%;
     transform: translate(-50%, -50%) scale(1);
     transition-delay: 0.5s;
 }
+
+.card:hover:nth-child(2) .product_img{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/**************************************************/
 
 @media (max-width: 991px){
     .card{
