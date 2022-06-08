@@ -10,12 +10,11 @@ body{
     align-items: center;
     flex-wrap: wrap;
     min-height: 100vh;
-    background: #eee;
 }
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url('../img/defaul_producto.png');
+    /* background-image: url('../img/defaul_producto.png'); */
     background-size: cover;
     background-position: center;
     padding: 20px 8%;
@@ -29,12 +28,14 @@ nav{
 }
 nav .logo{
     width: 160px;
+    height: 45px;
+    object-fit: scale-down;
     cursor: pointer;
 }
 nav .btn{
     text-decoration: none;
     color: #fff;
-    background: #989898;
+    background: #3b18b9;
     padding: 15px 50px;
     border-radius: 30px;
 }
@@ -47,11 +48,15 @@ nav .btn{
 }
 .content h2 img{
     width: 150px;
+    height: 60px;
+    object-fit: scale-down;
+    object-position: 0% 100%;
 }
 .content h1{
     color: #000;
     font-size: 100px;
     margin-top: -30px;
+    font-size: 2.5em;
 }
 .content p{
     overflow: hidden;
@@ -80,6 +85,7 @@ nav .btn{
 }
 .colour-select div{
     background: #989898;
+    overflow: hidden;
     display: inline-block;
     width: 90px;
     height: 90px;
@@ -87,7 +93,11 @@ nav .btn{
     margin-right: 10px;
     cursor: pointer;
 }
-
+.colour-select div img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
 /* ===== Scrollbar CSS ===== */
 /* Chrome, Edge, and Safari */
 .colour-select::-webkit-scrollbar,
@@ -104,7 +114,20 @@ nav .btn{
     border-radius: 2px;
 }
 .movil{
-    display: none;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    margin-top: 150px;
+    margin-right: 250px;
+    width: 500px;
+    height: 500px;
+    /* border: 5px solid red; */
+}
+.movil img{
+    width: 100%;
+    height: 500px;
+    object-fit: scale-down;
 }
 @media (max-width: 991px){
     .container{
@@ -112,18 +135,19 @@ nav .btn{
     }
     .content,
     .content p,
-    .colour-select,
-    .movil{
+    .colour-select{
         width: 100%;
         max-width: 100%;
     }
     .movil{
-        display: block;
+        position: static;
+        margin: 0;
         width: 100%;
-        height: 250px;
-        background-image: url('../img/defaul_producto.png');
-        background-size: cover;
-        background-position: -130px;
-        transition: background-image 0.3s;
+        height: 300px;
+    }
+    .movil img{
+        width: 100%;
+        height: 300px;
+        object-fit: scale-down;
     }
 }

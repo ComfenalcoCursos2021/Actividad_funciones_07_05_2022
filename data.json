@@ -3,26 +3,75 @@
         "titulo": "Koaja",
         "parrafo": "Elegir un Camisa Manga Corta Hombre perfecto es una tarea abrumadora. Uno tiene que probar y probar diferentes productos disponibles en el mercado para obtener lo mejor.",
         "logo": "img/koaj_logo.png",
-        "img": "img/koaj.png"
+        "img": "img/koaj.png",
+        "compañia": "img/koaj_logo.png",
+        "ficha": "",
+        "similares": []
     },
     {
         "titulo": "Arturo Calle",
         "parrafo": "Compra en Arturo Calle con la tarjeta de crédito de Codensa y recibe un 25% de descuento. Visita nuestra tienda y recibe un 25% de dcto* pagando con la tarjeta de crédito Codensa.",
         "logo": "img/ac_logo.png",
-        "img": "img/ac.png"
+        "img": "img/ac.png",
+        "compañia": "img/ac_logo.png",
+        "ficha": "",
+        "similares": []
     },
     {
-        "titulo": "xiaomi",
+        "titulo": "Xiaomi Mi Smart Band 6",
         "parrafo": "Pulsera inteligente Xiaomi Mi Smart Band 6 personaliza tu estilo con más de 60 tipos de pantallas y 30 modalidades deportivas.",
         "logo": "img/logo_producto1.jpg",
         "img": "img/producto1.png",
         "compañia": "img/logo_compañia.png",
-        "ficha": "",
+        "ficha": "<div class='tab-details col-xs-12'><div class='tab-details__outer-content'><h3 class='tab-details__outer-content__title col-xs-12 col-sm-12 hidden-md hidden-lg columns font-title'>Resumen del producto</h3><div class='tab-details__content col-md-6'><h3 class='hidden-sm hidden-xs tab-details__title'>Características destacadas</h3><ul class='tab-details__keyFeatures--list'><li class='tab-details__keyFeatures--item'>Batería con una duración hasta 14&nbsp;días .</li><li class='tab-details__keyFeatures--item'>Sumergible hasta 50&nbsp;metros .</li><li class='tab-details__keyFeatures--item'>Tiene medición 'SpO2' Saturación de Oxigeno</li><li class='tab-details__keyFeatures--item'>Más de 60 tipos de pantalla para todos los dias sean diferentes</li><li class='tab-details__keyFeatures--item'>Carga Mágnetica, sin necesidad de quitar la correa</li></ul></div><div class='tab-details__content col-md-6'><h3 class='hidden-sm hidden-xs tab-details__title'>Resumen del producto</h3>Disfruta de la Banda 6 de Xiaomi que llega ahora con un diseño de pantalla que aprovecha más los espacios y una monitorización de la frecuencia cardíaca 24/7 mejorada y más precisa, además de con todo lo necesario para registrar tu salud y la actividad diaria.",
         "similares": [
             {
-                "titulo": "xiaomi",
-                "logo": "img/logo_producto1.jpg",
-                "img": "img/producto1.png",
+                "titulo": "Gear Fit2 Pro SM-R365NZRAMXO Samsung",
+                "parrafo": "",
+                "logo": "img/logo_producto2.png",
+                "img": "img/producto1.webp",
+                "ficha": ""
+            },
+            {
+                "titulo": "Gear Fit2 Pro SM-R365NZRAMXO Samsung",
+                "parrafo": "",
+                "logo": "img/logo_producto2.png",
+                "img": "img/producto1.webp",
+                "ficha": ""
+            },
+            {
+                "titulo": "Gear Fit2 Pro SM-R365NZRAMXO Samsung",
+                "parrafo": "",
+                "logo": "img/logo_producto2.png",
+                "img": "img/producto1.webp",
+                "ficha": ""
+            },
+            {
+                "titulo": "Gear Fit2 Pro SM-R365NZRAMXO Samsung",
+                "parrafo": "",
+                "logo": "img/logo_producto2.png",
+                "img": "img/producto1.webp",
+                "ficha": ""
+            },
+            {
+                "titulo": "Gear Fit2 Pro SM-R365NZRAMXO Samsung",
+                "parrafo": "",
+                "logo": "img/logo_producto2.png",
+                "img": "img/producto1.webp",
+                "ficha": ""
+            },
+            {
+                "titulo": "Gear Fit2 Pro SM-R365NZRAMXO Samsung",
+                "parrafo": "",
+                "logo": "img/logo_producto2.png",
+                "img": "img/producto1.webp",
+                "ficha": ""
+            },
+            {
+                "titulo": "Gear Fit2 Pro SM-R365NZRAMXO Samsung",
+                "parrafo": "",
+                "logo": "img/logo_producto2.png",
+                "img": "img/producto1.webp",
                 "ficha": ""
             }
         ]
