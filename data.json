@@ -1,0 +1,30 @@
+[
+    {
+        "titulo": "Koaja",
+        "parrafo": "Elegir un Camisa Manga Corta Hombre perfecto es una tarea abrumadora. Uno tiene que probar y probar diferentes productos disponibles en el mercado para obtener lo mejor.",
+        "logo": "img/koaj_logo.png",
+        "img": "img/koaj.png"
+    },
+    {
+        "titulo": "Arturo Calle",
+        "parrafo": "Compra en Arturo Calle con la tarjeta de crédito de Codensa y recibe un 25% de descuento. Visita nuestra tienda y recibe un 25% de dcto* pagando con la tarjeta de crédito Codensa.",
+        "logo": "img/ac_logo.png",
+        "img": "img/ac.png"
+    },
+    {
+        "titulo": "xiaomi",
+        "parrafo": "Pulsera inteligente Xiaomi Mi Smart Band 6 personaliza tu estilo con más de 60 tipos de pantallas y 30 modalidades deportivas.",
+        "logo": "img/logo_producto1.jpg",
+        "img": "img/producto1.png",
+        "compañia": "img/logo_compañia.png",
+        "ficha": "",
+        "similares": [
+            {
+                "titulo": "xiaomi",
+                "logo": "img/logo_producto1.jpg",
+                "img": "img/producto1.png",
+                "ficha": ""
+            }
+        ]
+    }
+]
